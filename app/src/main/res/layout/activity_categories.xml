@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/timestamp"
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/c1"
+            android:tag="Analog watches"
+            style="@style/pdt_selection_ImgBtn"/>
+
+        <ImageButton
+            android:id="@+id/c2"
+            android:tag="Bag Packs"
+            style="@style/pdt_selection_ImgBtn"/>
+
+        <ImageButton
+            android:id="@+id/c3"
+            android:tag="Polos and T-shirts"
+            style="@style/pdt_selection_ImgBtn"/>
+
+        <ImageButton
+            android:id="@+id/c4"
+            android:tag="Jeans"
+            style="@style/pdt_selection_ImgBtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageButton
+            android:id="@+id/c5"
+            android:tag="Formal shoes"
+            style="@style/pdt_selection_ImgBtn"/>
+
+        <ImageButton
+            android:id="@+id/c6"
+            android:tag="Sports shoes"
+            style="@style/pdt_selection_ImgBtn"/>
+
+        <ImageButton
+            android:id="@+id/c7"
+            android:tag="Women_foot_wear_heels"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c8"
+            android:tag="Sarees"
+            style="@style/pdt_selection_ImgBtn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/c9"
+            android:tag="Sunglasses"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c10"
+            android:tag="Men_kurtas"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c11"
+            android:tag="Women_pendants_and_lockets"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c12"
+            android:tag="Women_earrings"
+            style="@style/pdt_selection_ImgBtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/c13"
+            android:tag="Curtains"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c14"
+            android:tag="Posters"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c15"
+            android:tag="Clutches"
+            style="@style/pdt_selection_ImgBtn" />
+
+        <ImageButton
+            android:id="@+id/c16"
+            android:tag="Women_footwear_flats"
+            style="@style/pdt_selection_ImgBtn" />
+    </LinearLayout>
+
+</LinearLayout>
